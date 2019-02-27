@@ -8,16 +8,19 @@ Eclipse编写，用Eclipse导入
 改变`sqlConfig.properties`中的数据库信息
 ## 项目功能
 ![开始界面](http://ww1.sinaimg.cn/large/91e80714gy1g0l7ll8hf0j212y0g1jrq.jpg)
-![游戏界面](http://ww1.sinaimg.cn/large/91e80714gy1g0l7n0xf8uj21h90apgmx.jpg)
-![编辑界面](http://ww1.sinaimg.cn/large/91e80714gy1g0l7nemkn6j21go0nm0wu.jpg)
+![游戏界面](http://ww1.sinaimg.cn/large/91e80714gy1g0la2g184uj21h90apgmx.jpg)
+![编辑界面](http://ww1.sinaimg.cn/large/91e80714gy1g0la2xlp8ij21go0nm0wu.jpg)
 ## 项目实现
 **如何获取需要展示的数据**
 1. 获取所有数据
 2. 将数据按年龄分成不同的数组
 3. 再逐个年龄数组中随机抽取词条放入结果数组直到抽到事件属性为`die`状态
 4. 将结果数组转发到前端
+
 **如何处理数据操作**
 前端传入的参数`action`中记录了要进行什么操作,将每个操作公共部分提取,用`switch`对`action`进行选择,减少重复代码
+
+
 **JDBC方面**
 - 使用线程池`ThreadLocal`来管理连接
 - 使用抽象类`BaseDaoImpl`继承线程池并把JDBC共有部分实现
