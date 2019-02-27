@@ -11,9 +11,9 @@ Eclipse编写，用Eclipse导入
 改变`sqlConfig.properties`中的数据库信息
 ## 项目功能
 
-![开始界面](http://ww1.sinaimg.cn/large/91e80714gy1g0l7ll8hf0j212y0g1jrq.jpg)
-![游戏界面](http://ww1.sinaimg.cn/mw690/91e80714gy1g0la61w4fij21h90apgmx.jpg)
-![编辑界面](http://ww1.sinaimg.cn/mw690/91e80714gy1g0la6f0jyaj21go0nm0wu.jpg)
+![开始界面](https://github.com/MuTunCN/LifeGame/blob/master/screenShot/index.png)
+![游戏界面](https://github.com/MuTunCN/LifeGame/blob/master/screenShot/show.png)
+![编辑界面](https://github.com/MuTunCN/LifeGame/blob/master/screenShot/edit.png)
 ## 项目实现
 
 **如何获取需要展示的数据**
