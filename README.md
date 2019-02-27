@@ -10,9 +10,16 @@ Eclipse编写，用Eclipse导入
 使用`lifebase_life.sql`创建数据库和导入其中数据
 改变`sqlConfig.properties`中的数据库信息
 ## 项目功能
+**开始界面**
 
 ![开始界面](https://github.com/MuTunCN/LifeGame/blob/master/screenShot/index.png)
+
+**游戏界面**
+
 ![游戏界面](https://github.com/MuTunCN/LifeGame/blob/master/screenShot/show.png)
+
+**编辑界面**
+
 ![编辑界面](https://github.com/MuTunCN/LifeGame/blob/master/screenShot/edit.png)
 ## 项目实现
 
